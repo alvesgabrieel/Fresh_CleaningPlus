@@ -1,0 +1,14 @@
+@use 'variables';
+
+.banner{
+    padding: 32px;
+    background-color: variables.$color;
+    
+
+    &__text{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 4em;
+        color: variables.$textColor;
+    }
+}

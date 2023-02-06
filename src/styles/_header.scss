@@ -1,0 +1,67 @@
+@use 'variables';
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    &__logo{
+        padding: 16px;
+        padding-left: 80px;
+    }
+
+    &__infos{
+        padding-top: 34px;
+
+        a{
+            display: flex;
+
+            &:hover{
+                border-bottom: 2px solid variables.$color;
+                padding-bottom: 8px;
+            }
+        }
+
+        .wpp{
+           font-size: 30px;
+           color: variables.$color;
+        }
+
+        p{
+            margin-top: 8px;
+            margin-left: 8px;
+            color: variables.$color;
+            font-weight: 700;
+            
+        }
+
+    }
+
+    &__menu{
+
+        &__list{
+            display: flex;
+            padding-top: 40px;
+            padding-right: 80px;
+            gap: 32px;
+           &__item{
+
+
+            }  
+        }
+    }
+}
+
+
+.logo-image{
+    height: 2em;
+    width: 5em;
+}
+
+.link{
+    color: variables.$color;
+    font-weight: 600;
+    font-size: 20px;
+
+    &:hover {
+        border-bottom: 2px solid variables.$color;
+    }
+}

@@ -1,0 +1,9 @@
+.hero{
+    position: relative;  
+
+    &__btn{
+        position: absolute; 
+        top: 50%;
+        left: 15%;
+     }
+}

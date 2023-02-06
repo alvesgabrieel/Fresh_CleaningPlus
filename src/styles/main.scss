@@ -1,0 +1,37 @@
+@use 'variables';
+@use 'header';
+@use 'banner';
+@use 'hero';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    background-color: variables.$color;
+    color: variables.$textColor;
+    border: none;
+
+    &:hover {
+        background-color: variables.$mainColor;
+    }
+}
+
