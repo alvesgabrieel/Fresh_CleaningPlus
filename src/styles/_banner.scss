@@ -3,6 +3,10 @@
 .banner{
     padding: 32px;
     background-color: variables.$color;
+
+    @media (max-width: 768px) {
+        padding: 16px;
+    }
     
 
     &__text{
@@ -10,5 +14,9 @@
         font-family: 'Dancing Script', cursive;
         font-size: 4em;
         color: variables.$textColor;
+
+        @media (max-width: 768px) {
+            font-size: 1.5em;
+        }
     }
 }
