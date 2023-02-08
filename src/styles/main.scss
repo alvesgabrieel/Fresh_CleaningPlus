@@ -1,7 +1,8 @@
 @use 'variables';
 @use 'header';
-@use 'banner';
 @use 'hero';
+@use 'content';
+@use 'service';
 
 *{
     margin: 0;
@@ -32,6 +33,27 @@
 
     &:hover {
         background-color: variables.$secondColor;
+    }
+}
+
+.banner{
+    padding: 32px;
+    background-color: variables.$color;
+
+    @media (max-width: 768px) {
+        padding: 16px;
+    }
+    
+
+    &__text{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 4em;
+        color: variables.$textColor;
+
+        @media (max-width: 768px) {
+            font-size: 1.5em;
+        }
     }
 }
 
