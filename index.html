@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./dist/styles/main.css">
 </head>
 <body>
+
     <header class="header">
         <div class="header__logo">
             <h1><img class="logo-image" src="./dist/imgs/logo/LOGOTIPO-01.png" alt="logo"></h1>
@@ -86,6 +87,39 @@
                 </li>
             </ul>
         </div>
+    </section>
+
+    <section class="grid-pictures">
+        <div class="grid-pictures__grid-images">
+            <img src="./dist/imgs/grid-pictures/image-row_image1 (1).jpg" alt="">
+            <img src="./dist/imgs/grid-pictures/image-row_image2.jpg" alt="">
+            <img src="./dist/imgs/grid-pictures/image-row_image3.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta__form-content">
+            <h2>Faça seu agendamento pelo nosso whatsapp </i></h2>
+            <p>
+                Para um atendimento personalizado nos envie ja tudo pronto! <br />
+                Preencha o formulario abaixo e nos envie diretamente pelo whatsapp <i class="ri-arrow-right-circle-line"></i>
+            </p>
+
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder=" Digite seu nome completo" required>
+                <label for="email">Email: *</label>
+                <input type="email" name="email" id="email" placeholder=" Digite aqui seu email (opcional)">
+                <label for="cel">Número de telefone:</label>
+                <input type="number" name="cel" id="cel" placeholder=" Digite aqui seu numero de telefone" required>
+                <label for="date">Data desejada:</label>
+                <input type="date" name="date" id="date">
+                <label for="hour">Hora desejada:</label>
+                <input type="text" name="hour" id="hour" placeholder=" Digite a hora desejada">
+                <button type="submit" class="btn">Enviar para o whatsapp   <i class="ri-whatsapp-line wpp"></i></button>
+            </form>
+        </div>
+        
     </section>
 
     <script src="./dist/scripts/main.js"></script>

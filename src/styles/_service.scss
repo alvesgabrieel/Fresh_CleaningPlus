@@ -1,6 +1,8 @@
 @use 'variables';
 
 .service {
+
+    margin-top: 40px;
     
     @media (max-width: 1080px) {
         margin-top: 80px;
